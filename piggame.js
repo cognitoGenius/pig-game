@@ -90,6 +90,7 @@ function newGame() {
   section1.classList.add(`player--active`)
   rollbtn.removeEventListener(`click`, diceRoll2)
   rollbtn.addEventListener(`click`, diceRoll1)
+  holdbtn.addEventListener(`click`, hold)
 }
 
 diceImg.classList.add(`hidden`)
